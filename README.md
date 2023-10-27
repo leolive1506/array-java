@@ -15,3 +15,32 @@
 ## Desvantagens
 - tamanho fixo
 - dificuldade para inserção e deleção
+
+# Boxing
+- conversão de um objeto tipo valor para objeto tipo referência compativel
+```java
+int x = 20;
+Object obj = x;
+```
+# Unboxing
+- conversão de um objeto tipo referência para objeto tipo valor compativel
+- inverso boxing
+```java
+int x = 20;
+Object obj = x;
+
+int y = (int) obj;
+```
+
+# Wrapper classes
+- classes equivalentes ao tipo primitivo
+  - boolean -> Boolean
+- indicado uso pois aceita valor nulo
+
+# Listas
+- inicia vazia e os elementos são alocados sob demanda (diferente do vetor)
+- tipo (interface): List
+- desvatangem
+  - acesso sequencial aos elementos
+    - isso pode ser otimizado
+- não aceita passar tipos primitivos como parametro

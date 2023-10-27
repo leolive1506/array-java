@@ -1,3 +1,4 @@
+package exercicies;
 import java.util.Scanner;
 
 import entities.exercicies.RoomRent;
