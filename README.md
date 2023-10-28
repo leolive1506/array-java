@@ -44,3 +44,16 @@ int y = (int) obj;
   - acesso sequencial aos elementos
     - isso pode ser otimizado
 - não aceita passar tipos primitivos como parametro
+
+# Matrizes
+- vetores em linhas e colunas (x, y)
+  - y são os items dentro da linha x
+    - vetor de vetores
+
+```java
+[
+  [],
+  [],
+  [],
+]
+```
